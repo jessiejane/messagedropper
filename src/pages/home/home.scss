@@ -1,3 +1,43 @@
 page-home {
 
 }
+ion-header {
+	padding:10px;
+}
+
+ #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+
+#title, #content, #viewable, #saveButton {
+  margin:8px;
+}
+
+  #form {
+    display:flex;
+    flex-direction: column;
+    #saveButton {
+      padding:10px 20px 10px 20px;
+      align-self:flex-end;
+    }
+  }
+.gm-style > div:first-of-type > div:nth-child(4) > div:nth-child(4) > div:first-of-type > div:first-of-type > div:nth-child(4){
+
+    background-color: rgba(255, 255, 255, 0.8) !important;
+
+}
+
+
+ .blurred .scroll-content {
+	filter: blur(20px);
+}
+
+.noblur .scroll-content {
+	filter: blur(0px);
+}

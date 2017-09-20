@@ -1,17 +1,32 @@
-<ion-header>
+
+    <ion-header>
   <ion-navbar>
     <ion-title>Home</ion-title>
   </ion-navbar>
+  <h2>Leave A Message</h2>
+  <p>
+    Click a location on the map, then click the marker to enter and save your message to that location
+  </p>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content padding [ngClass]="{'blurred' : IsBlurred==true }" >
+ <div id="map" height="460px" width="100%"></div>
+ <div style="display:none">
+    <div id="form" >
+     
+    <input id="title" type='text' placeholder="Title" #title /> 
+    <textarea id="content" type='text'  rows="4" #content  placeholder="Content"></textarea> 
+    <select #viewable id="viewable"> +
+                 <option SELECTED>Anywhere</option>
+                 <option >Within Proximity</option>
+                 </select>
+                 <input type='button' value='Save' id="saveButton" (click)='saveData(title.value, content.value, viewable.value)'/>
+
+    </div>
+
+    <div id="message">Location saved</div>
+    </div>
 </ion-content>
+
+
+

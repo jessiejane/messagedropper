@@ -22,5 +22,14 @@ $ ionic cordova platform add ios
 $ ionic cordova run ios
 ```
 
-Substitute ios for android if not on a Mac.
+### Deploy to Iphone
+```
+$ ionic cordova build ios --prod
+```
 
+Open .xcodeproj file in platform folder
+connect phone
+
+
+
+To locate provisioning profile :  cd ~/Library/MobileDevice/Provisioning\ Profiles

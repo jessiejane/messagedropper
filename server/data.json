@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.123451,
+          122.123451
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Best Bar Ever",
+        "address": "123 Main St",
+        "lat": -37.123451,
+        "lng": 122.123451,
+        "type": "bar",
+        "marker-color": "#f00",
+        "marker-size": "large"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.454285,
+          -122.216377
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Test",
+        "address": "123 Test Way",
+        "lat": 37.454285,
+        "lng": -122.216377,
+        "type": "bar",
+        "marker-color": "#f00",
+        "marker-size": "large"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.454285,
+          -122.216377
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Test",
+        "address": "123 Test Way",
+        "lat": 37.454285,
+        "lng": -122.216377,
+        "type": "bar",
+        "marker-color": "#f00",
+        "marker-size": "large"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.457283,
+          -122.236115
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Test",
+        "address": "123 Test Way",
+        "lat": 37.457283,
+        "lng": -122.236115,
+        "type": "bar",
+        "marker-color": "#f00",
+        "marker-size": "large"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.463142,
+          -122.171921
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Test9",
+        "address": "1233476930 Test Way",
+        "lat": 37.463142,
+        "lng": -122.171921,
+        "type": "bar",
+        "marker-color": "#f00",
+        "marker-size": "large"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.376663,
+          47.671051
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "HOME :)",
+        "address": "1512 NW 58th St",
+        "lat": 47.671051,
+        "lng": -122.376663,
+        "type": "restaurant",
+        "marker-color": "#f00",
+        "marker-size": "large"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.669838,
+          -122.374153
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "da mahket",
+        "address": "123doodalee",
+        "lat": 47.669838,
+        "lng": -122.374153,
+        "type": "bar",
+        "marker-color": "#f00",
+        "marker-size": "large"
+      }
+    }
+  ]
+}
